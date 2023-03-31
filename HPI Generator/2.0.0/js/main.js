@@ -1045,8 +1045,7 @@ function hideExtraDiagnosisBtns() {
 	hideTarget('NPDRBtnLeft'); hideTarget('NPDRBtnLeftBreak');
 	hideTarget('PDRBtnLeft'); hideTarget('PDRBtnLeftBreak');
 	hideTarget('PVDBtnLeft'); hideTarget('PVDBtnLeftBreak');
-	hideTarget('RDBtnRLeft'); hideTarget('RDBtnLeftBreak');
-
+	hideTarget('RDBtnLeft'); hideTarget('RDBtnLeftBreak');
 }
 
 
