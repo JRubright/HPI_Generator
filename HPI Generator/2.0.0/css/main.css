@@ -1,0 +1,367 @@
+body {background: #555; /* Dark Grey */}
+
+.content {
+  max-width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  background: #cccccc; /* Light Grey */
+  padding: 30px;
+  padding-bottom: 275px;
+
+}
+
+.invisibleText {
+  color: #cccccc; /* Light Grey */
+
+}
+
+.frost {
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.frostLight {
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(2px);
+}
+
+.HPI{
+  position: fixed;
+  height: 275px;
+  bottom: 0;
+  left:  10%;
+  width: 80%; 
+
+  background: #cccccc; /* Light Grey */
+
+}
+
+.button {
+	border: 2px solid #ffffff; /* White */
+	border-radius: 8px;
+	color: white;
+	padding: 0px 8px;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0.7;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.intervalButton {
+  border: 2px solid #ffffff; /* White */
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+  display: block;
+  font-size: 12px;
+  width: 100px;
+  height: 20px;
+  line-height: 10px;
+}
+
+.pushButton:hover {opacity: 1;}
+
+.pushButton:active {
+  opacity: 1;
+  transform: translateY(4px);
+}
+
+.button1 {background-color: #000000;} /* Black */
+.button2 {background-color: #666666;} /* Grey */
+.button3 {background-color: green; opacity: 0.6;} /* Green */
+.button4 {background-color: #0066ff;} /* Blue */
+.button5 {background-color: red; opacity: 0.6;} /* Red */
+.button6 {background-color: #ff66ff;} /* Pink */
+.button7 {background-color: #ff6600;} /* Orange */
+.button8 {background-color: #6600ff;} /* Purple */
+.button9 {background-color: #220066;} /* Blueish Purple */
+.button10 {background-color: #800060;} /* Reddish Purple */
+.button11 {background-color: #804000;} /* Brown */
+.button12 {background-color: #ffcc00;} /* Orangish Yellow */
+.button13 {background-color: #00cca3;} /* Turquoise */
+.button14 {background-color: #cc00cc;} /* Fuschia */
+.button15 {background-color: #1a1a1a;} /* Dark Grey */
+.button16 {background-color: #206020;} /* Dark Green */
+.button17 {background-color: #b366ff;} /* Light Purple */
+.button18 {background-color: #0099cc;} /* Cerulean */
+.button19 {background-color: #00cccc;} /* Aquamarine */
+.button20 {background-color: #005ce6;} /* Blue 5% darker than #0066ff */
+.button21 {background-color: #0047b3;} /* Blue 15% darker than #0066ff */
+.button22 {background-color: #003380;} /* Blue 25% darker than #0066ff */
+.button23 {background-color: #001f4d;} /* Blue 35% darker than #0066ff */
+.button24 {background-color: #3385ff;} /* Blue 10% lighter than #0066ff */
+.button25 {background-color: #ff8533;} /* Orange 10% lighter than #ff6600 */
+.button26 {background-color: #b30086;} /* Reddish Purple 10% lighter than #800060 */
+.button27 {background-color: #ff99ff;} /* Pink 10% lighter than #ff66ff */
+.button28 {background-color: #008066;} /* Turquoise 10% lighter than #00cca3 */
+.button29 {background-color: #00ff00;} /* Light Green */
+.button30 {background-color: #ffbf00;} /* Honey */
+.button31 {background-color: #cc9900;} /* Honey 10% darker than #ffbf00 */
+.button32 {background-color: #29a329;} /* Green */
+.button33 {background-color: #ff4d4d;} /* Pale Red */
+
+.buttonGoBack {
+	background-color: white; 
+ 	color: black;
+ 	padding: 2px 4px !important;
+ 	margin-left :10px;
+	border: 2px solid #ff0000;
+}
+
+.button:hover {opacity: 1;}
+
+.intervalButton:hover {opacity: 1;}
+
+.highlight {background-color: #FFFF80;}
+
+.selected { /* for BUTTONS */
+	border: 2px solid #000000; /* Black */
+	opacity: 1;
+}
+
+.notSelected { /* for BUTTONS */
+	border: 2px solid #ffffff; /* White */
+	background-color: #666666; /* Grey */
+	opacity: 0.7;
+}
+
+.selectedFld { /* for FIELDS */
+  background-color: #00cca3; /* Turquoise */
+}
+
+.selectedODFld { /* for OD SPECIFIC FIELDS */
+  background-color: #ff4d4d; /* Red */
+}
+
+.selectedOSFld { /* for OD SPECIFIC FIELDS */
+  background-color: #29a329; /* Green */
+}
+
+.notSelectedODFld {
+  background-color: #ff4d4d;
+  opacity: 0.5;
+}
+
+.notSelectedOSFld {
+  background-color: #29a329;
+  opacity: 0.5;
+}
+.notSelectedFld { /* for FIELDS */
+  background-color: #666666; /* Grey */
+  opacity: 0.7; /* to match the .notSelected buttons */
+}
+
+.form-inline {
+  display: inline-block;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Create a single column, which helps formatting a line breaks */
+.column {
+  float: left;
+  width: 100%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 2 equal columns that float next to each other */
+.column2 {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 3 equal columns that float next to each other */
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create a 2/3  column that float next to other columns */
+.column3x2 {
+  float: left;
+  width: 66.66%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 4 equal columns that float next to each other */
+.column4 {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create a 3/4 column that float next to other columns */
+.column4x3 {
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 5 equal columns that float next to each other */
+.column5 {
+  float: left;
+  width: 20%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 2/5 column that float next to other columns */
+.column5x2 {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 4/5 column that float next to other columns */
+.column5x4 {
+  float: left;
+  width: 80%;
+  padding-right: 20px;
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 6 equal columns that float next to each other */
+.column6 {
+  float: left;
+  width: 16%;
+  /* removed padding so that return interval buttons don't wrap text and elongate vertically */
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 7 equal columns that float next to each other */
+.column7 {
+  float: left;
+  width: 14%;
+  /* removed padding so that return interval buttons don't wrap text and elongate vertically
+  (then switched to using .column6) */
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 8 equal columns that float next to each other */
+.column8 {
+  float: left;
+  width: 12.5%;
+  /* removed padding so that return interval buttons don't wrap text and elongate vertically
+  (then switched to using .column6) */
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 9 equal columns that float next to each other */
+.column9 {
+  float: left;
+  width: 11%;
+  /* removed padding so that return interval buttons don't wrap text and elongate vertically
+  (then switched to using .column6) */
+  background-color:#cccccc; /* Light Grey */
+}
+
+/* Create 10 equal columns that float next to each other */
+.column10 {
+  float: left;
+  width: 10%;
+
+  /* removed padding so that return interval buttons don't wrap text and elongate vertically
+  (then switched to using .column6) */
+  background-color:#cccccc; /* Light Grey */
+}
+
+.row {
+  width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.correctionLine {
+
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+  display: block;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+
+}
+
+.correctionLine:before {
+  background-color: #cccccc;
+  content: '';
+  height: 4px;
+  right: 0;
+  position: absolute;
+  top: -2px;
+  width: 20%;
+  z-index: 1;  
+}
+
+/* borrowed code from https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp */
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 90%;
+  top: 5%;
+  right: 0;
+  background-color: #111;
+  opacity: 0.9;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/*currently not used */.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/*currently not used */.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 30px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+/* code above borrowed from https://www.w3schools.com/howto/howto_js_collapse_sidepanel.asp */

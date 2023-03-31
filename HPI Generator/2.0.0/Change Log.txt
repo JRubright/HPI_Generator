@@ -1,0 +1,8 @@
+2.0.0 (released on ..... )
+*updated injection choices with current medications
+*added "nonexudative macular degeneration with atrophy" to correspond with Syfovre
+*removed less commonly used Procedure and Diagnosis buttons
+*fixed custom procedure text not displaying
+*changed phrasing of "intravitreal Avastin" --> "Avastin Treatment", etc.
+*updated date selection for last appt/procedure/surgery
+*fixed "bilateral" apearing twice in HPI for custom bilateral procedures
