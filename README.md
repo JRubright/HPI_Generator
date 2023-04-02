@@ -1,2 +1,2 @@
-# RetinaNPC
-This collection of applications is intended to facilitate the work of a vitreoretinal surgery practice. 
+# HPI_Generator
+This program facilitates the wrinting of HPIs for a vitreoretinal surgery practice.
